@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a8a43cce47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../_css/jquery-ui.min.css">
+    <script src="../_js/jquery-3.6.0.js"></script>
+    <script src="../_js/jquery.min.js"></script>
+    <script src="../_js/jquery-ui.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="../_css/bootstrap.min.css">
+    <link rel="stylesheet" href="./mycss.css">
+
+    <title>Actors Quiz​ Game</title>
+
+</head>
+
+<body>
+
+    <img src="" id="actorimg" class="rounded"
+        style="border:1px solid black; width:450px; height:600px; float:left; margin: 10px 20px;">
+    <br />
+
+
+    <div id="board"></div>
+    <br>
+
+    <div>
+        <i class="fa fa-level-down fa-2x" aria-hidden="true" style="position:relative; left: 750px; bottom:180px;"></i>
+    </div>
+
+    <span>
+        <button id="hint_Fullname" style="position:relative; left:220px;width:40px;height:40px; border-radius:20px; font-size:13px; color:white; justify-content: center;
+    align-items: center;" type="button" class=" btn btn-dark">All</button>
+
+        <button id="hint_Firstname" style="position:relative; background-color:Orange; left:270px;width:40px;height:40px; border-radius:20px; font-size:18px; color:white; justify-content: center;
+    align-items: center;" type="button" class=" btn ">F</button>
+
+        <button id="one" style="position:relative; left:320px;width:40px;height:40px; border-radius:20px; font-size:18px; justify-content: center;
+    align-items: center;" type="button" class=" btn btn-danger">1</button>
+    </span>
+
+    <button id="nextpage"onclick = myrefresh(); type="button" style="position:relative; left:450px; " class="btn btn-success"><i
+            class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+
+    <span id="wiki" style="display:none;">
+        <a href="" id="wikiurl" target="_blank"><button type="button" class="btn btn-info"><i
+                    class="fa fa-wikipedia-w fa-2x" aria-hidden="true"></i></button></a>
+    </span>
+
+    <span id="cor" style="display:none; font-size:40px; position: relative; top:90px;">correct!</span>
+
+    <br><br><br><br><br><br>
+
+    <div id="board22" style="position:absolute ; left:600px;bottom:70px;"></div>
+
+    <script src="myScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+#board{
+    width: 600px;
+    height: 200px;
+    margin:0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start; 
+}
+
+#boardbottom{
+    width: 660px;
+    height: 140px;
+    margin:0 auto;
+    padding:4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    position: relative;
+    left:20px;
+    top: 20px;
+    
+}
+
+.tile{
+    /*box*/
+    border:2px solid lightgray;
+    width: 70px;
+    height:70px;
+    margin:2.5px;
+    visibility:visible;
+
+    /*text*/
+    color:black;
+    font-size: 36px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tile[id="7- "]{
+    display:none;
+}
+
+.tile span{
+    visibility:hidden;
+}
+
+.letterspan{
+    justify-content: center;
+    align-items: center;
+    visibility:visible;
+}
+    
+#wiki{
+    position:relative;
+    right: 800px;
+}
+
+
+.tilebottom{
+    /*box*/
+    border:2px solid lightgray;
+    width: 60px;
+    height:60px;
+    margin:2.5px;
+    
+
+    /*text*/
+    color:black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+img{
+    position:relative;
+    left:6%;
+}
+
+
+#wiki{
+    position:relative;
+    left:250px;
+    top:80px;
+}
+
+.tile2{
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+     /*box*/
+     border:2px solid lightgray;
+     width: 70px;
+     height:70px;
+     margin:2.5px;
+     visibility: hidden;
+ 
+     /*text*/
+     color:black;
+     font-size: 36px;
+     font-weight: bold;
+     justify-content: center;
+     align-items: center;
+}
+
+.correct{
+    background-color: #6AAA64;
+    color:white;
+    border-color: white;
+}
+
+.wrong{
+    background-color: Tomato;
+    color:white;
+    border-color: white;
+   
+}
+
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.present{
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+}
+
+.absent{
+    background-color: #787C7E;
+        color: white;
+        border-color: white;
+}
+
+
+.keyboard-row {
+    width: 682px;
+    background-color: rgba(205,133,63, 0.5);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left:20px;
+    top: 20px;
+   
+}
+
+.key-tile {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.enter-key-tile {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
